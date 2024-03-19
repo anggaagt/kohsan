@@ -249,6 +249,11 @@ body {
 }
 
 /* About Section */
+
+.about .row .content .event {
+  font-style: italic;
+}
+
 .about,
 .menu,
 .products,
@@ -265,7 +270,13 @@ body {
   margin-bottom: 3rem;
 }
 
+.about h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 .about h2 span,
+.about h3 span,
 .menu h2 span,
 .products h2 span,
 .contact h2 span {
@@ -354,6 +365,7 @@ body {
   text-align: center;
   border: 1px solid #666;
   padding: 2rem;
+  border-radius: 50px;
 }
 
 .products .product-icons {
@@ -385,6 +397,7 @@ body {
 
 .products .product-image img {
   height: 25rem;
+  border-radius: 30px;
 }
 
 .products .product-content h3 {
