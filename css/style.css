@@ -353,6 +353,46 @@ body {
   margin: 1rem auto 0.5rem;
 }
 
+/* Terkini Section */
+.terkini h2,
+.products h2,
+.contact h2 {
+  margin-bottom: 1rem;
+}
+.terkini p,
+.products p,
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.terkini .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.terkini .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.terkini .row .menu-card img {
+  border-radius: 10px;
+  width: 80%;
+}
+.terkini .row a:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.terkini .row .menu-card .menu-card-title {
+  margin: 1rem auto 0.5rem;
+}
+
 /* Products Section */
 .products .row {
   display: grid;
