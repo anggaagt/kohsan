@@ -64,29 +64,3 @@ window.onclick = (e) => {
     itemDetailModal.style.display = "none";
   }
 };
-
-// Modal Box Dua
-const itemDetailModalDua = document.querySelector("#item-detail-modal-dua");
-const itemDetailButtonsDua = document.querySelectorAll(
-  ".item-detail-button-dua"
-);
-
-itemDetailButtonsDua.forEach((btn) => {
-  btn.onclick = (e) => {
-    itemDetailModalDua.style.display = "flex";
-    e.preventDefault();
-  };
-});
-
-// klik tombol close modal dua
-document.querySelector(".modal-dua .close-icon-dua").onclick = (e) => {
-  itemDetailModalDua.style.display = "none";
-  e.preventDefault();
-};
-
-// klik di luar modal dua
-window.onclick = (e) => {
-  if (e.target === itemDetailModalDua) {
-    itemDetailModalDua.style.display = "none";
-  }
-};
